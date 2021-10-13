@@ -6,7 +6,14 @@ namespace blackjack_project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine( "Time to play blackjack" );
+        }
+        static int random2()
+        {
+            Random randomNumber= new Random();
+            int number;
+            number = randomNumber.Next( 1, 10 );
+            return number;
         }
     }
 }

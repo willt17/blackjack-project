@@ -1,0 +1,16 @@
+C:\Users\willt\blackjack-project\obj\Debug\net5.0\blackjack-project.csproj.AssemblyReference.cache
+C:\Users\willt\blackjack-project\obj\Debug\net5.0\blackjack-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willt\blackjack-project\obj\Debug\net5.0\blackjack-project.AssemblyInfoInputs.cache
+C:\Users\willt\blackjack-project\obj\Debug\net5.0\blackjack-project.AssemblyInfo.cs
+C:\Users\willt\blackjack-project\obj\Debug\net5.0\blackjack-project.csproj.CoreCompileInputs.cache
+C:\Users\willt\blackjack-project\bin\Debug\net5.0\blackjack-project.exe
+C:\Users\willt\blackjack-project\bin\Debug\net5.0\blackjack-project.deps.json
+C:\Users\willt\blackjack-project\bin\Debug\net5.0\blackjack-project.runtimeconfig.json
+C:\Users\willt\blackjack-project\bin\Debug\net5.0\blackjack-project.runtimeconfig.dev.json
+C:\Users\willt\blackjack-project\bin\Debug\net5.0\blackjack-project.dll
+C:\Users\willt\blackjack-project\bin\Debug\net5.0\ref\blackjack-project.dll
+C:\Users\willt\blackjack-project\bin\Debug\net5.0\blackjack-project.pdb
+C:\Users\willt\blackjack-project\obj\Debug\net5.0\blackjack-project.dll
+C:\Users\willt\blackjack-project\obj\Debug\net5.0\ref\blackjack-project.dll
+C:\Users\willt\blackjack-project\obj\Debug\net5.0\blackjack-project.pdb
+C:\Users\willt\blackjack-project\obj\Debug\net5.0\blackjack-project.genruntimeconfig.cache

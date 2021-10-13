@@ -113,7 +113,22 @@ namespace blackjack_project
         static void computerStand( ref int player2Cards, ref int player1Cards )
         {
             Console.WriteLine( "The computer will stand at " + player2Cards );
-            playerDecision(ref player1Cards, ref player2Cards );
+            Console.WriteLine( "Press 1 to stand or 2 to hit" );
+            string input = Console.ReadLine();
+            int userInput = int.Parse( input );
+            switch ( userInput )
+            {
+                case 1:
+                    handCheck(ref player1Cards, ref player2Cards );
+                    break;
+                case 2:
+                    hitFunction( ref player1Cards, ref player2Cards );
+                    handCheck( ref player1Cards, ref player2Cards );
+                    break;
+                default:
+                    wrongInput();
+                    break;
+            }
         }
         static void bjWin()
         {
@@ -122,6 +137,17 @@ namespace blackjack_project
         static void bjLose()
         {
             Console.WriteLine( "You lost this hand" );
+        }
+        static void handCheck(ref int player1Cards, ref int player2Cards )
+        {
+            if ( player1Cards > player2Cards )
+            {
+                bjWin();
+            }
+            else
+            {
+                bjLose();
+            }
         }
     }
 }
